@@ -1,0 +1,99 @@
+2025-02-13T22:54:56.0426136Z ##[debug]Starting: job2
+2025-02-13T22:54:56.0447065Z ##[debug]Cleaning runner temp folder: /home/runner/work/_temp
+2025-02-13T22:54:56.0559206Z ##[debug]Starting: Set up job
+2025-02-13T22:54:56.0560393Z Current runner version: '2.322.0'
+2025-02-13T22:54:56.0587049Z ##[group]Operating System
+2025-02-13T22:54:56.0587682Z Ubuntu
+2025-02-13T22:54:56.0588287Z 24.04.1
+2025-02-13T22:54:56.0588777Z LTS
+2025-02-13T22:54:56.0589321Z ##[endgroup]
+2025-02-13T22:54:56.0589869Z ##[group]Runner Image
+2025-02-13T22:54:56.0590424Z Image: ubuntu-24.04
+2025-02-13T22:54:56.0590989Z Version: 20250209.1.0
+2025-02-13T22:54:56.0592279Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20250209.1/images/ubuntu/Ubuntu2404-Readme.md
+2025-02-13T22:54:56.0593664Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20250209.1
+2025-02-13T22:54:56.0594615Z ##[endgroup]
+2025-02-13T22:54:56.0595168Z ##[group]Runner Image Provisioner
+2025-02-13T22:54:56.0595744Z 2.0.422.1
+2025-02-13T22:54:56.0596499Z ##[endgroup]
+2025-02-13T22:54:56.0598648Z ##[group]GITHUB_TOKEN Permissions
+2025-02-13T22:54:56.0600726Z Actions: write
+2025-02-13T22:54:56.0601564Z Attestations: write
+2025-02-13T22:54:56.0602251Z Checks: write
+2025-02-13T22:54:56.0602771Z Contents: write
+2025-02-13T22:54:56.0603249Z Deployments: write
+2025-02-13T22:54:56.0603878Z Discussions: write
+2025-02-13T22:54:56.0604400Z Issues: write
+2025-02-13T22:54:56.0604940Z Metadata: read
+2025-02-13T22:54:56.0605496Z Packages: write
+2025-02-13T22:54:56.0605975Z Pages: write
+2025-02-13T22:54:56.0606560Z PullRequests: write
+2025-02-13T22:54:56.0607158Z RepositoryProjects: write
+2025-02-13T22:54:56.0607737Z SecurityEvents: write
+2025-02-13T22:54:56.0608350Z Statuses: write
+2025-02-13T22:54:56.0608983Z ##[endgroup]
+2025-02-13T22:54:56.0611000Z Secret source: Actions
+2025-02-13T22:54:56.0612269Z ##[debug]Primary repository: balrajo/lab2
+2025-02-13T22:54:56.0612995Z Prepare workflow directory
+2025-02-13T22:54:56.0674863Z ##[debug]Creating pipeline directory: '/home/runner/work/lab2'
+2025-02-13T22:54:56.0678096Z ##[debug]Creating workspace directory: '/home/runner/work/lab2/lab2'
+2025-02-13T22:54:56.0679636Z ##[debug]Update context data
+2025-02-13T22:54:56.0683666Z ##[debug]Evaluating job-level environment variables
+2025-02-13T22:54:56.0895440Z ##[debug]Evaluating job container
+2025-02-13T22:54:56.0898664Z ##[debug]Evaluating job service containers
+2025-02-13T22:54:56.0901390Z ##[debug]Evaluating job defaults
+2025-02-13T22:54:56.0925762Z Prepare all required actions
+2025-02-13T22:54:56.1013117Z ##[debug]Set step '__run' display name to: 'Printing Custom Message'
+2025-02-13T22:54:56.1016449Z ##[debug]Set step '__run_2' display name to: 'Printing run-job boolean value'
+2025-02-13T22:54:56.1017382Z Complete job name: job2
+2025-02-13T22:54:56.1032656Z ##[debug]Collect running processes for tracking orphan processes.
+2025-02-13T22:54:56.1302850Z ##[debug]Finishing: Set up job
+2025-02-13T22:54:56.1505976Z ##[debug]Evaluating condition for step: 'Printing Custom Message'
+2025-02-13T22:54:56.1594613Z ##[debug]Evaluating: success()
+2025-02-13T22:54:56.1599697Z ##[debug]Evaluating success:
+2025-02-13T22:54:56.1617921Z ##[debug]=> true
+2025-02-13T22:54:56.1623961Z ##[debug]Result: true
+2025-02-13T22:54:56.1646730Z ##[debug]Starting: Printing Custom Message
+2025-02-13T22:54:56.1757564Z ##[debug]Loading inputs
+2025-02-13T22:54:56.1786629Z ##[debug]Evaluating: format('echo {0}', inputs.custom_message)
+2025-02-13T22:54:56.1787785Z ##[debug]Evaluating format:
+2025-02-13T22:54:56.1791375Z ##[debug]..Evaluating String:
+2025-02-13T22:54:56.1792714Z ##[debug]..=> 'echo {0}'
+2025-02-13T22:54:56.1805609Z ##[debug]..Evaluating Index:
+2025-02-13T22:54:56.1807847Z ##[debug]....Evaluating inputs:
+2025-02-13T22:54:56.1809047Z ##[debug]....=> Object
+2025-02-13T22:54:56.1814526Z ##[debug]....Evaluating String:
+2025-02-13T22:54:56.1815104Z ##[debug]....=> 'custom_message'
+2025-02-13T22:54:56.1818142Z ##[debug]..=> 'Executing KodeKloud Lab 2'
+2025-02-13T22:54:56.1819436Z ##[debug]=> 'echo Executing KodeKloud Lab 2'
+2025-02-13T22:54:56.1820417Z ##[debug]Result: 'echo Executing KodeKloud Lab 2'
+2025-02-13T22:54:56.1826125Z ##[debug]Loading env
+2025-02-13T22:54:56.1888020Z ##[group]Run echo Executing KodeKloud Lab 2
+2025-02-13T22:54:56.1888670Z echo Executing KodeKloud Lab 2
+2025-02-13T22:54:56.2433434Z shell: /usr/bin/bash -e {0}
+2025-02-13T22:54:56.2434287Z ##[endgroup]
+2025-02-13T22:54:56.2530569Z ##[debug]/usr/bin/bash -e /home/runner/work/_temp/6f40a58f-6f75-4496-bcdd-9c730724b96a.sh
+2025-02-13T22:54:56.2653649Z Executing KodeKloud Lab 2
+2025-02-13T22:54:56.2708547Z ##[debug]Finishing: Printing Custom Message
+2025-02-13T22:54:56.2724232Z ##[debug]Evaluating condition for step: 'Printing run-job boolean value'
+2025-02-13T22:54:56.2733193Z ##[debug]Evaluating: (success() && (inputs.run-job == 'true'))
+2025-02-13T22:54:56.2734118Z ##[debug]Evaluating And:
+2025-02-13T22:54:56.2737087Z ##[debug]..Evaluating success:
+2025-02-13T22:54:56.2738367Z ##[debug]..=> true
+2025-02-13T22:54:56.2739552Z ##[debug]..Evaluating Equal:
+2025-02-13T22:54:56.2741994Z ##[debug]....Evaluating Index:
+2025-02-13T22:54:56.2743204Z ##[debug]......Evaluating inputs:
+2025-02-13T22:54:56.2744446Z ##[debug]......=> Object
+2025-02-13T22:54:56.2745598Z ##[debug]......Evaluating String:
+2025-02-13T22:54:56.2746801Z ##[debug]......=> 'run-job'
+2025-02-13T22:54:56.2748482Z ##[debug]....=> true
+2025-02-13T22:54:56.2749647Z ##[debug]....Evaluating String:
+2025-02-13T22:54:56.2750809Z ##[debug]....=> 'true'
+2025-02-13T22:54:56.2771623Z ##[debug]..=> false
+2025-02-13T22:54:56.2773417Z ##[debug]=> false
+2025-02-13T22:54:56.2780636Z ##[debug]Expanded: (true && (true == 'true'))
+2025-02-13T22:54:56.2782383Z ##[debug]Result: false
+2025-02-13T22:54:56.2836698Z ##[debug]Starting: Complete job
+2025-02-13T22:54:56.2839809Z Cleaning up orphan processes
+2025-02-13T22:54:56.3050178Z ##[debug]Finishing: Complete job
+2025-02-13T22:54:56.3080391Z ##[debug]Finishing: job2
