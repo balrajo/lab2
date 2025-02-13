@@ -20,7 +20,7 @@ jobs:
       - run: echo "Exploring Workflow Dispatch Trigger"
 
   job2:
-    if: ${{ inputs.run-job }}
+    if: ${{ inputs.run-job }} == "true"
     runs-on: ubuntu-latest
     steps:
       - name: Printing Custom Message
